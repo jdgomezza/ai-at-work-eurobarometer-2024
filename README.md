@@ -39,26 +39,29 @@
 ---
 
 ## 📁 Repo Structure
-ai-at-work-eurobarometer-2024/
-├─ data/ # raw / licensed inputs (not committed)
-│ ├─ eurobarometer_101_4_2024.sav
-│ └─ eb1014_ai_safety_clean.csv
-├─ notebooks/
-│ └─ eurobarometer_analysis.ipynb
-├─ output/
-│ ├─ highlights.csv # tiny, tidy data used by PBIX + charts
-│ ├─ ai_awareness_stacked.png
-│ ├─ ai_used_for_performance_stacked.png
-│ ├─ ai_improves_safety_stacked.png
-│ └─ highlights_bar.png
-├─ powerbi/
-│ └─ ai-at-work.pbix # Power BI dashboard (1280×720)
-├─ reports/
-│ ├─ overview.png # screenshot used in this README
-│ └─ overview.pdf # optional export
-├─ requirements.txt
-└─ README.md
 
+```text
+ai-at-work-eurobarometer-2024/
+├─ data/                        # raw / licensed inputs (not committed)
+│  ├─ eurobarometer_101_4_2024.sav
+│  └─ eb1014_ai_safety_clean.csv
+├─ notebooks/
+│  └─ eurobarometer_analysis.ipynb
+├─ output/
+│  ├─ highlights.csv            # tidy data used by PBIX + charts (0–100 scale)
+│  ├─ ai_awareness_stacked.png
+│  ├─ ai_used_for_performance_stacked.png
+│  ├─ ai_improves_safety_stacked.png
+│  └─ highlights_bar.png
+├─ powerbi/
+│  └─ ai-at-work.pbix           # Power BI dashboard (1280×720)
+├─ reports/
+│  ├─ overview.png              # screenshot used in this README
+│  └─ overview.pdf              # optional export
+├─ requirements.txt
+├─ LICENSE
+└─ README.md
+```
 ---
 
 ## 📥 Data
