@@ -80,6 +80,7 @@ ai-at-work-eurobarometer-2024/
 ```bash
 pip install -r requirements.txt
 # open notebooks/eurobarometer_analysis.ipynb and run the cells
+```
 
 © Attribution
 
